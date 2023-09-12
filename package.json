@@ -1,0 +1,34 @@
+{
+  "name": "jason-website-admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/ckeditor5-ckbox": "^39.0.2",
+    "@strapi/plugin-i18n": "4.14.0-alpha.0",
+    "@strapi/plugin-seo": "^1.9.5",
+    "@strapi/plugin-users-permissions": "4.14.0-alpha.0",
+    "@strapi/strapi": "4.14.0-alpha.0",
+    "better-sqlite3": "8.5.0",
+    "mysql2": "^3.6.1",
+    "strapi-plugin-slugify": "^2.3.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4073cd46-8475-45ec-9e3b-3499c33f1126"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
