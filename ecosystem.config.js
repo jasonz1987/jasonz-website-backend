@@ -15,7 +15,7 @@ module.exports = {
           DATABASE_PORT: '3306',
           DATABASE_NAME: 'jasonz_website', // DB name under 'Configuration' tab
           DATABASE_USERNAME: 'root', // default username
-          DATABASE_PASSWORD: '',
+          DATABASE_PASSWORD: 'v!qTT(bKIk.6',
         },
       },
     ],
