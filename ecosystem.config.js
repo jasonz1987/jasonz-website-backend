@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'your-app-name', // Your project name
+        name: 'jasonz-website-backend', // Your project name
         cwd: '/www/jasonz-website-backend', // Path to your project
         script: 'npm', // For this example we're using npm, could also be yarn
         args: 'start', // Script to start the Strapi server, `start` by default
