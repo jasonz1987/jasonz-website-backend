@@ -6,20 +6,16 @@ module.exports = {
         script: 'npm', // For this example we're using npm, could also be yarn
         args: 'start', // Script to start the Strapi server, `start` by default
         env: {
-          APP_KEYS: 'your app keys', // you can find it in your project .env file.
-          API_TOKEN_SALT: 'your api token salt',
-          ADMIN_JWT_SECRET: 'your admin jwt secret',
-          JWT_SECRET: 'your jwt secret',
+          APP_KEYS: 'O9KD3tJt3r5d7ZV0qFT9YQ==,51rlNaXGKmE3pZzriLPUEQ==,JXY6gRWNMbY04fzpBES/aw==,7pZMwcckAidwhH0WC3szUQ==', // you can find it in your project .env file.
+          API_TOKEN_SALT: 'jhG+eZHRDwP4bF/V4AcMYQ==',
+          ADMIN_JWT_SECRET: 'd3DyIBwzY1/9LlGIXpPpbQ==',
+          JWT_SECRET: 'O6pxQiq1ETj13ULzmbGacQ==',
           NODE_ENV: 'production',
-          DATABASE_HOST: 'your-unique-url.rds.amazonaws.com', // database Endpoint under 'Connectivity & Security' tab
-          DATABASE_PORT: '5432',
-          DATABASE_NAME: 'strapi', // DB name under 'Configuration' tab
-          DATABASE_USERNAME: 'postgres', // default username
-          DATABASE_PASSWORD: 'Password',
-          AWS_ACCESS_KEY_ID: 'aws-access-key-id',
-          AWS_ACCESS_SECRET: 'aws-access-secret', // Find it in Amazon S3 Dashboard
-          AWS_REGION: 'aws-region',
-          AWS_BUCKET_NAME: 'my-project-bucket-name',
+          DATABASE_HOST: 'localhost', // database Endpoint under 'Connectivity & Security' tab
+          DATABASE_PORT: '3306',
+          DATABASE_NAME: 'jasonz_website', // DB name under 'Configuration' tab
+          DATABASE_USERNAME: 'root', // default username
+          DATABASE_PASSWORD: '',
         },
       },
     ],
